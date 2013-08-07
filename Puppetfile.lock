@@ -1,0 +1,40 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/git (0.0.2)
+    puppetlabs/stdlib (4.1.0)
+    puppetlabs/vcsrepo (0.1.2)
+
+GIT
+  remote: git://github.com/ivanlei/puppet-hg.git
+  ref: master
+  sha: 935048c7b0dd85688f38f46df14275cda16f9a05
+  specs:
+    ivanlei/hg (1.0.0)
+
+GIT
+  remote: git://github.com/ivanlei/puppet-python_pip.git
+  ref: master
+  sha: 80ecfceac40a83670dac5514db3f39665293662e
+  specs:
+    ivanlei/python_pip (1.0.0)
+
+GIT
+  remote: git://github.com/ivanlei/puppet-python_tools.git
+  ref: master
+  sha: fe8e5380246d00e879b2fc4d530a0cd230c93778
+  specs:
+    ivanlei/python_tools (1.0.0)
+      ivanlei/python_pip (>= 1.0.0)
+      puppetlabs/git (>= 0.0.2)
+      puppetlabs/stdlib (>= 4.1.0)
+      puppetlabs/vcsrepo (>= 0.1.2)
+
+DEPENDENCIES
+  ivanlei/hg (>= 0)
+  ivanlei/python_pip (>= 0)
+  ivanlei/python_tools (>= 0)
+  puppetlabs/git (>= 0)
+  puppetlabs/stdlib (>= 0)
+  puppetlabs/vcsrepo (>= 0)
+

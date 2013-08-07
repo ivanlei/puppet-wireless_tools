@@ -1,0 +1,1 @@
+class { 'wireless_tools': }

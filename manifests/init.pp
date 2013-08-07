@@ -11,6 +11,6 @@ class wireless_tools {
 
   python_tools::source_install { 'scapy':
     repo_url => 'http://hg.secdev.org/scapy',
-    provider => 'hg',    
+    provider => 'hg', 
   }
 }
